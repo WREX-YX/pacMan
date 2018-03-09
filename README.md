@@ -7,6 +7,8 @@ An optional gameplay may be added to allow computer-controlled characters to joi
 
 *note* Graphics will not be the same as the original PacMan game. 
 
+https://docs.google.com/spreadsheets/d/10o9Z5jGWWyNRLloprbvh8ko65eEX8PjFwu0rWjcD6uM/edit?usp=sharing
+
 ![pacMan](https://github.com/WREX-YX/pacMan/blob/master/src/PacMan.PNG)
 
 ![pacMan](https://github.com/WREX-YX/pacMan/blob/master/src/pacman.png)
