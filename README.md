@@ -3,6 +3,8 @@ This is a simple pac man game that allows two players to play against each other
 
 Goal: Collect pellets as food. Find the power-up [once it appears] in order to eat the other player in the game. If the two players collide before either one of them has eaten the power-up, they will both die and the game will end. The game will end once one player is eaten. 
 
+Instructions: Use WASD and Arrow keys to navigate around the field while collecting pellets as food. When you get the big power pellets, you can eat the other player.
+
 An optional gameplay may be added to allow computer-controlled characters to join the game to make it more difficult. You must survive from them while still trying to achieve the original goal of eating the other player. If one player is touched by the computer-controlled characters, they will die and the game will end with the winner being the player that survives. 
 
 *note* Graphics will not be the same as the original PacMan game. 
