@@ -8,8 +8,10 @@ public class Board extends JPanel implements ActionListener{
 	private Player player;
 	private Pellet pellet;
 	private final int DELAY = 10;
-    public Rectangle rect1;
-    public Rectangle rect2;
+    	public Rectangle rect1;
+    	public Rectangle rect2;
+	//Random random = new Random();
+    	//int r = random.nextInt(790) + 10;
 
 	public Board() {
 		addKeyListener(new TAdapter());
@@ -37,6 +39,7 @@ public class Board extends JPanel implements ActionListener{
         g2d.drawImage(player.getImage(), player.getX(), player.getY(), this);
         if (collision()){
             remove(pellet);
+	    //g2d.drawImage(pellet.getImage(), r, r, this);
         } else{
             g2d.drawImage(pellet.getImage(), pellet.getX(), pellet.getY(), this); 
          }
